@@ -49,3 +49,10 @@ LIMIT 2;
 /*Deletando todos os registros*/
 TRUNCATE TABLE cursos; 
 
+DROP DATABASE cadastro; 
+
+CREATE DATABASE cadastro;
+
+USE kcadastro;
+
+DESC cursos;
